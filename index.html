@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Práctica 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>TO DO LIST</h2>
+        <div class="todoList"></div>
+        <div class="form-style">
+            <div class="input-group mb-3">   
+                <input type="text" class="form-control" id="activityText" placeholder="Nueva Actividad">
+            </div>
+            <input class="btn btn-outline-primary" type="button" onclick="insertActivity()" name="agregar" value="Agregar">
+        </div>
+    </div>
+        <script src="jquery-1.12.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
